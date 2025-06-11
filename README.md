@@ -97,3 +97,14 @@ git hard --soft caadfd88ea73b87323b06bfee829240b6b676d65
 ```
 git reflog
 ```
+
+## Select the branch to be sent to
+```
+git branch -M main
+```
+
+## Send the files
+```
+git push -u origin main
+```
+
