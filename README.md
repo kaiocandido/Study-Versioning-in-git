@@ -108,3 +108,42 @@ git branch -M main
 git push -u origin main
 ```
 
+## Shows the latest commits of the branch
+```
+git branch -v
+```
+
+## Merge the branch with the main
+```
+git merge teste
+```
+
+## delete the branch
+```
+git branch -d nome
+```
+
+## Update the branch
+```
+git pull
+```
+
+## Update the branch
+```
+git fatch origin main
+```
+
+## Clones a single specific branch
+```
+git clone url  --branch teste --single-branch
+```
+
+## Archive the commits
+```
+git stash
+```
+
+## Select the branch
+```
+git checkout teste
+```
